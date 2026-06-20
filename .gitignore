@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Models and outputs
+models/
+*.h5
+*.keras
+*.tflite
+potato-disease-classification/
+
+# Node and tooling
+node-v24.15.0-win-x64/
+node_modules/
+npm-debug.log
+package-lock.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore large repositories
+boston_repo/
