@@ -1,0 +1,5 @@
+.vscode
+.pycharm
+__pycache__
+.ipynb_checkpoints
+models.config
