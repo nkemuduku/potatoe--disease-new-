@@ -1,6 +1,3 @@
-This is a placeholder for potatoes.h5.
-
-The actual HDF5 model file is large and should not be committed directly to git.
-Options:
-- Add the real `potatoes.h5` via Git LFS.
-- Upload it to cloud storage and reference it in `saved_models/README.md`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:167faa975da2a34dfeec01a862ab957be6f3b169c2da10dabce20be54a94e70a
+size 253
