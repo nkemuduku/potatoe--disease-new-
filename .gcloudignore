@@ -1,16 +1,21 @@
+# This file specifies files to ignore when deploying to Google Cloud
+# See: https://cloud.google.com/sdk/gcloud/reference/topic/gcloudignore
+
+# Git files
+.git
+.gitignore
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
 .venv/
-.env
 
 # Notebooks
 .ipynb_checkpoints/
-*.ipynb
 
 # Models and outputs
 models/
+saved_models/
 *.h5
 *.keras
 *.tflite
@@ -18,18 +23,9 @@ models/
 # Node and tooling
 node-v24.15.0-win-x64/
 node_modules/
-npm-debug.log
-package-lock.json
 
 # OS and editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Ignore large repositories
-boston_repo/
-saved_models/
-potatoes.h5
-tf-lite-models/
-test_images_from_internet/

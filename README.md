@@ -24,3 +24,6 @@ Notes
 
 Contact
 - Repo pushed to: https://github.com/nkemuduku/potatoe-disease-.git
+
+Changed Instruction (#8)
+ - Updated repository structure and added placeholders for large model files. See `saved_models/README.md` for guidance.
